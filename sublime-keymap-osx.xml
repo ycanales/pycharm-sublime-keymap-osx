@@ -1,8 +1,16 @@
 <keymap version="1" name="sublime-osx" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
@@ -17,7 +25,13 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
   <action id="ParameterInfo" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
   <action id="Replace" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
