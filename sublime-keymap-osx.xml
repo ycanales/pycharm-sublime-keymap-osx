@@ -17,15 +17,14 @@
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
-  </action>
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="meta o" />
-    <keyboard-shortcut first-keystroke="meta r" />
   </action>
   <action id="GotoRelated" />
   <action id="MoveLineDown">
@@ -41,7 +40,9 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="Refresh" />
   <action id="Replace" />
+  <action id="Rerun" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
