@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="CheckinProject" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="meta alt divide" />
@@ -17,6 +20,9 @@
   <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 0" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
