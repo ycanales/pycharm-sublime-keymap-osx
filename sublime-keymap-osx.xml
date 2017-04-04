@@ -6,6 +6,9 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="CheckinProject" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 1" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="meta alt slash" />
     <keyboard-shortcut first-keystroke="meta alt divide" />
@@ -13,19 +16,27 @@
     <keyboard-shortcut first-keystroke="shift meta slash" />
     <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 0" />
+  </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="meta o" />
-    <keyboard-shortcut first-keystroke="meta r" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoRelated" />
   <action id="MoveLineDown">
@@ -41,10 +52,15 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="Refresh" />
   <action id="Replace" />
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="meta p" />
+  <action id="Rerun" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta d" />
   </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
