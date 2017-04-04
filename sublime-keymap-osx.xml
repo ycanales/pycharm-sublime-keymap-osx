@@ -61,6 +61,12 @@
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift meta alt 2" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
