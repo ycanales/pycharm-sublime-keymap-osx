@@ -21,6 +21,9 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta 0" />
   </action>
@@ -37,6 +40,9 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="GotoRelated" />
   <action id="MoveLineDown">
@@ -56,7 +62,6 @@
   <action id="Replace" />
   <action id="Rerun" />
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="SendEOF" />
@@ -82,4 +87,5 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="Vcs.Log.FocusTextFilter" />
 </keymap>
