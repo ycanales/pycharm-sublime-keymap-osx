@@ -72,6 +72,10 @@
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
+  <action id="SaveAll" />
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
