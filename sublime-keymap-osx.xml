@@ -4,6 +4,7 @@
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CheckinProject" />
   <action id="CollapseAllRegions">
@@ -45,6 +46,7 @@
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
